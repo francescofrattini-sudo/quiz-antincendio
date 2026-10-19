@@ -4,7 +4,6 @@ import pandas as pd
 import streamlit as st
 
 # --- CONFIGURAZIONE PATH E FILE ---
-WORK_DIR = r"C:\Users\frattini\Downloads"
 EXCEL_PATH = os.path.join(WORK_DIR, "Quiz.xlsx")
 
 st.set_page_config(
