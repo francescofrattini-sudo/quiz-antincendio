@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 
 # --- CONFIGURAZIONE PATH E FILE ---
-EXCEL_PATH = os.path.join(WORK_DIR, "Quiz.xlsx")
+EXCEL_PATH = "Quiz.xlsx"
 
 st.set_page_config(
     page_title="Quiz Addetto Antincendio",
